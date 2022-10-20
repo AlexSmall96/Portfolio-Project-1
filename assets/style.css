@@ -8,11 +8,16 @@ html{
     background: url('../assets/images/hero-image.jpeg') no-repeat center center;
 }
 
+#about{
+    height: 500px;
+    width: 90%;
+    margin:auto;
+}
+
 #about-image{
     height: 400px;
     width: 45%;
     margin:auto;
     background: url('../assets/images/about-image.jpeg') no-repeat center center;
     float:left;
-
 }
