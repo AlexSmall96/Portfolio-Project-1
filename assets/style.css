@@ -44,6 +44,11 @@ a {
     transform: translate(-50%, -50%);
 }
 
+#cover-text h2{
+    padding: 30px 0;
+}
+
+
 /*About section */
 
 #about{
