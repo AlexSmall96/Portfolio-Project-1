@@ -1,5 +1,12 @@
 html{
     text-align:center;
+    background-color: grey;
+}
+
+#main-body{
+    width:65%;
+    margin:auto;
+    background-color:white;
 }
 
 #hero-image{
