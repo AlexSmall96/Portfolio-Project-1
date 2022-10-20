@@ -1,11 +1,9 @@
-
-
+/*Whole page rules*/
 
 html{
     text-align:center;
     background-color: grey;
 }
-
 
 #main-body{
     width:65%;
@@ -13,12 +11,16 @@ html{
     background-color:white;
 }
 
+/*Hero image section */
+
 #hero-image{
     height: 650px;
     width: 90%;
     margin:auto;
     background: url('../assets/images/hero-image.jpeg') no-repeat center center;
 }
+
+/*About section */
 
 #about{
     height: 500px;
@@ -39,6 +41,8 @@ html{
     overflow:scroll;
 }
 
+/*Links section*/
+
 #links{
     height: 100px;
     width: 65%;
@@ -58,11 +62,15 @@ html{
     float:right;
 }
 
+/*Opening hours section */
+
 #hours{
     height: 200px;
     width:30%;
     margin:auto;
 }
+
+/*Footer with contact links*/
 
 footer table{
     margin:auto;
