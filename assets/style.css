@@ -88,14 +88,24 @@ a {
 .menu-reservations-links{
     height:50%;
     width:49%;
-}
+    border-color: black;
+    border-style:double;
+    border-width:1px;
 
+}
 #menu-link{
     float:left;
+}
+#menu-link h3{
+    padding: 15px 0;
 }
 
 #reservations-link{
     float:right;
+}
+
+#reservations-link h3{
+    padding: 15px 0;
 }
 
 /*Opening hours section */
