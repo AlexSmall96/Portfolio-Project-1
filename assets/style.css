@@ -3,6 +3,7 @@ html{
     background-color: grey;
 }
 
+
 #main-body{
     width:65%;
     margin:auto;
@@ -48,6 +49,15 @@ html{
 #reservations-link{
     float:right;
 }
+
+#hours{
+    height: 200px;
+    width:30%;
+    margin:auto;
+}
+
+
+
 
 
 
