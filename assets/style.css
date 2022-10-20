@@ -5,6 +5,7 @@ html{
 #hero-image{
     height: 650px;
     width: 90%;
+    margin:auto;
     background: url('../assets/images/hero-image.jpeg') no-repeat center center;
 }
 
