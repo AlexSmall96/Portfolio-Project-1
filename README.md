@@ -6,3 +6,15 @@ I tried adjusting the margin on the hero image, and also styling the about secti
 2.I noticed the opening hours section and the contact section were spilling over the main body div into the grey background. (see issue_2.png) I realised this was because the links section above it was missing its closing tag.
 
 3.After adding text to the about section, I checked to see if it would look good at a smaller window size. I noticed the text was spilling into the sections below, to fix this I added a scroll feature so the user can scroll down to read the remaining text when the browser window is resized.
+
+4.I wanted the cover text box to be centered vertically and horizontally in the hero image, but also wanted this to be consistent with resizing the browser window. The below page provided code which provided a partial solution to this, as the code uses percentages to position the div.
+https://blog.hubspot.com/website/center-div-css. However, the cover text was only aligned horizontally. The solution came from changing.
+ 
+top: 50%;
+transform: translate(0, -50%);
+ 
+to
+ 
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
