@@ -29,3 +29,27 @@ html{
     background: url('../assets/images/about-image.jpeg') no-repeat center center;
     float:left;
 }
+
+#links{
+    height: 100px;
+    width: 65%;
+    margin:auto;
+}
+
+.menu-reservations-links{
+    height:50%;
+    width:49%;
+}
+
+#menu-link{
+    float:left;
+}
+
+#reservations-link{
+    float:right;
+}
+
+
+
+
+
