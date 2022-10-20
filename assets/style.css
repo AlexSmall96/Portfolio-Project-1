@@ -7,3 +7,12 @@ html{
     width: 90%;
     background: url('../assets/images/hero-image.jpeg') no-repeat center center;
 }
+
+#about-image{
+    height: 400px;
+    width: 45%;
+    margin:auto;
+    background: url('../assets/images/about-image.jpeg') no-repeat center center;
+    float:left;
+
+}
