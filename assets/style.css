@@ -1,4 +1,9 @@
 /*Whole page rules*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
 
 html{
     text-align:center;
