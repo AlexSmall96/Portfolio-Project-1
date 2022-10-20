@@ -11,6 +11,16 @@ html{
     background-color:white;
 }
 
+/*Header*/
+
+#menu li{
+    display:inline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /*Hero image section */
 
 #hero-image{
