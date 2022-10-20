@@ -1,0 +1,5 @@
+#hero-image{
+    height: 650px;
+    width: 90%;
+    background: url('../assets/images/hero-image.jpeg') no-repeat center center;
+}
