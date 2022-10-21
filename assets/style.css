@@ -116,6 +116,10 @@ a {
     margin:auto;
 }
 
+td{
+    padding:10px;
+}
+
 /*Footer with contact links*/
 
 footer table{
