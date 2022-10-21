@@ -126,10 +126,14 @@ a {
 /*Opening hours section */
 
 #hours{
-    height: 200px;
+    height: 250px;
     width:30%;
     margin:auto;
-    padding:30px;
+    padding-bottom:30px;
+}
+
+#hours h2{
+    padding-bottom:30px;
 }
 table{
     margin:auto;
@@ -142,6 +146,10 @@ td{
 
 footer{
     background-color: #4d99b3;
+}
+
+footer h4{
+    padding:30px;
 }
 
 
