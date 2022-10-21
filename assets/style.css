@@ -123,6 +123,15 @@ a {
     padding: 15px 0;
 }
 
+#home-link{
+    width:15%;
+    margin:auto;
+    border-color: black;
+    border-style:double;
+    border-width:1px;
+    margin-bottom:10px;
+}
+
 /*Opening hours section */
 
 #hours{
