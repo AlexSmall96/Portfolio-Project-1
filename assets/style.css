@@ -122,6 +122,9 @@ td{
 
 /*Footer with contact links*/
 
+footer{
+    background-color: #4d99b3;
+}
 footer table{
     margin:auto;
 }
