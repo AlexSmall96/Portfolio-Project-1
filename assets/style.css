@@ -164,11 +164,18 @@ footer h4{
 /*Menu Page/*
 /*
 /*Food menu section*/
-
 #food{
     width:50%;
     margin:auto;
     padding:50px;
+}
+/*Reservations Page*/
+
+#reservations-image{
+    height: 650px;
+    width: 90%;
+    margin:auto;
+    background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
 }
 
 
