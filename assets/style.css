@@ -10,8 +10,6 @@
 body{
     font-family:Oxygen;
     font-weight:300;
-}
-html{
     text-align:center;
     background-color: grey;
 }
@@ -21,17 +19,20 @@ html{
     margin:auto;
     background-color:white;
 }
-
+h2{
+    letter-spacing: 4px;
+}
 /*Header*/
 
 header{
     padding:15px;
     margin:auto;
+    letter-spacing: 4px;
 }
 
 ul{
     padding:15px;
-     margin:auto;
+    margin:auto;
 }
 
 
