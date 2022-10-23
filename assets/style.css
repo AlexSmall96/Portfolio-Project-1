@@ -178,6 +178,12 @@ footer h4{
     background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
 }
 
+/*Form Response Page */
+
+#form-message{
+      height:300px;
+}
+
 
 
 
