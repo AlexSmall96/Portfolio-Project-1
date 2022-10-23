@@ -178,6 +178,25 @@ footer h4{
     background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
 }
 
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-color:darkgray;
+  }
+
+  input[type=submit]:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    cursor: pointer;
+}
+
+
 /*Form Response Page */
 
 #form-message{
