@@ -178,7 +178,9 @@ footer h4{
     background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
     margin-bottom:30px;
 }
-
+form{
+    margin-top:30px
+}
 input {
     text-align: center;
     width: 100%;
