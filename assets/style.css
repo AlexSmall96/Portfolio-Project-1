@@ -1,3 +1,5 @@
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 /*Whole page rules*/
 * {
     margin: 0;
@@ -8,6 +10,8 @@
 html{
     text-align:center;
     background-color: grey;
+    font-family:Work+Sans;
+    font-weight:300;
 }
 
 #main-body{
