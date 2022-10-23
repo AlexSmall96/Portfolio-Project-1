@@ -176,6 +176,7 @@ footer h4{
     width: 90%;
     margin:auto;
     background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
+    margin-bottom:30px;
 }
 
 input {
