@@ -75,9 +75,10 @@ a {
 /*About section */
 
 #about{
-    height: 500px;
+    height: 400px;
     width: 90%;
     margin:auto;
+    margin-bottom:100px;
     padding:30px;
 }
 
@@ -90,14 +91,16 @@ a {
     width: 45%;
     margin:auto;
     background: url('../assets/images/about-image.jpeg') no-repeat center center;
+    background-size: 100% auto;
     float:left;
 }
 
 #about-text{
-    height: 350px;
+    width: 45%;
+    height: 400px;
     overflow:scroll;
     text-align:right;
-    transform: translate(0%, 15%);
+    float:right;
 }
 
 /*Links section*/
@@ -109,7 +112,7 @@ a {
 }
 
 .menu-reservations-links{
-    height:50%;
+    height:50px;
     width:49%;
     border-color: black;
     border-style:double;
@@ -118,7 +121,7 @@ a {
 #menu-link{
     float:left;
 }
-#menu-link h3{
+#menu-link h3, #reservations-link h3, #home-link h3{
     padding: 15px 0;
 }
 
@@ -126,12 +129,9 @@ a {
     float:right;
 }
 
-#reservations-link h3{
-    padding: 15px 0;
-}
-
 #home-link{
-    width:15%;
+    height: 50px;
+    width:30%;
     margin:auto;
     border-color: black;
     border-style:double;
@@ -145,7 +145,8 @@ a {
     height: 250px;
     width:30%;
     margin:auto;
-    padding-bottom:30px;
+    padding-bottom:20px;
+    padding-top:20px;
 }
 
 #hours h2{
