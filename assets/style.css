@@ -196,6 +196,10 @@ input {
     cursor: pointer;
 }
 
+label{
+    float:right;
+}
+
 
 /*Form Response Page */
 
