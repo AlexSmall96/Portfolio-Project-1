@@ -99,7 +99,7 @@ a {
 #about-text{
     width: 45%;
     height: 400px;
-    overflow:scroll;
+    overflow:auto;
     text-align:right;
     float:right;
 }
