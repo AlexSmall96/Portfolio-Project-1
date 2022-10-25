@@ -178,8 +178,10 @@ footer td{
     padding:30px;
 }
 /*
-/*Menu Page/*
-/*
+/*Menu Page*/
+.menu-image{
+    width:30%;
+}
 /*Food menu section*/
 #food{
     width:50%;
