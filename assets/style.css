@@ -187,6 +187,15 @@ footer td{
     margin:auto;
     padding:50px;
 }
+
+#food h3{
+    padding:15px;
+}
+
+#food p{
+    padding:15px;
+    font-style: italic;
+}
 /*Reservations Page*/
 
 #reservations-image{
