@@ -16,6 +16,7 @@ body{
 
 #main-body{
     width:65%;
+    min-width:300px;
     margin:auto;
     background-color:white;
 }
