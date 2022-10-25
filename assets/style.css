@@ -146,12 +146,8 @@ a {
 
 #hours{
     height: 250px;
-    width:30%;
     margin:auto;
-    padding-bottom:20px;
-    padding-top:20px;
-    left:50%;
-    transform: translate(-50%, 0%);
+    padding:20px;
 }
 
 #hours h2{
