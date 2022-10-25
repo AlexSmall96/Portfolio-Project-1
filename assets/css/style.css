@@ -184,6 +184,7 @@ footer td{
 /*Food menu section*/
 #food{
     width:50%;
+    min-width:200px;
     margin:auto;
     padding:50px;
 }
