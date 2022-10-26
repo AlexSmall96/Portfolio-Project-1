@@ -23,6 +23,9 @@ body{
 h2{
     letter-spacing: 4px;
 }
+a:hover{
+    text-decoration: underline;
+}
 /*Header*/
 
 header{
@@ -53,7 +56,7 @@ a {
     height: 650px;
     width: 90%;
     margin:auto;
-    background: url('../assets/images/hero-image.jpeg') no-repeat center center;
+    background: url('../../assets/images/hero-image.jpeg') no-repeat center center;
 }
 
 #cover-text{
@@ -95,7 +98,7 @@ a {
     height: 400px;
     width: 45%;
     margin:auto;
-    background: url('../assets/images/about-image.jpeg') no-repeat center center;
+    background: url('../../assets/images/about-image.jpeg') no-repeat center center;
     background-size: 100% auto;
     float:left;
 }
@@ -203,7 +206,7 @@ footer td{
     height: 650px;
     width: 90%;
     margin:auto;
-    background: url('../assets/images/reservations-image.jpeg') no-repeat center center;
+    background: url('../../assets/images/bookings-image.jpeg') no-repeat center center;
     margin-bottom:30px;
 }
 form{
