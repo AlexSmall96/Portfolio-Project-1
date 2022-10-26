@@ -1,6 +1,6 @@
-/*Import Font*/
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 /*Whole page rules*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -183,6 +183,17 @@ footer td{
 .menu-image{
     width:30%;
 }
+
+#top-link{
+    height: 50px;
+    width:30%;
+    margin:auto;
+    border-color: black;
+    border-style:double;
+    border-width:1px;
+    margin-bottom:20px;
+    padding-top:20px;
+}
 /*Food menu section*/
 #food{
     width:50%;
@@ -201,7 +212,7 @@ footer td{
 }
 /*Reservations Page*/
 
-#reservations-image{
+#bookings-image{
     height: 650px;
     width: 90%;
     margin:auto;
@@ -232,13 +243,15 @@ input {
 
 label{
     float:right;
+    text-align:right;
 }
 
 
 /*Form Response Page */
 
 #form-message{
-      height:300px;
+      height:150px;
+      padding-top:100px;
 }
 
 
