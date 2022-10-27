@@ -126,7 +126,7 @@ a {
 #about-text{
     width: 45%;
     height: 400px;
-    margin-right:25px;
+    margin-right:15px;
     overflow:auto;
     text-align:right;
     float:left;
@@ -135,7 +135,7 @@ a {
 @media only screen and (max-width: 1170px) {
     #about{
         height:650px;
-        margin-right:15px;
+        padding:15px;
     }
     #about-text{
         height:250px;
@@ -154,8 +154,8 @@ a {
     #about-text{
         height:315px;
 }
-#about-image{
-    height: 300px;
+    #about-image{
+        height: 300px;
 }
 }
 /*Links section*/
