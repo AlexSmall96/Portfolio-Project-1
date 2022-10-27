@@ -119,7 +119,7 @@ a {
     margin:auto;
     background: url('../../assets/images/about-image.jpeg') no-repeat center center;
     background-size: 100% auto;
-    float:left;
+    float:right;
 }
 
 
@@ -129,9 +129,35 @@ a {
     margin-right:25px;
     overflow:auto;
     text-align:right;
-    float:right;
+    float:left;
 }
 
+@media only screen and (max-width: 1170px) {
+    #about{
+        height:650px;
+        margin-right:15px;
+    }
+    #about-text{
+        height:250px;
+        font-size: small;
+        float:none;
+        width: 100%;
+    }
+    #about-image{
+        height: 400px;
+        background-size: 100% auto;
+        float:none;
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 731px) {
+    #about-text{
+        height:315px;
+}
+#about-image{
+    height: 300px;
+}
+}
 /*Links section*/
 
 #links{
@@ -239,6 +265,10 @@ footer td{
     margin:auto;
     background: url('../../assets/images/bookings-image.jpeg') no-repeat center center;
     margin-bottom:30px;
+}
+#bookings-message{
+    padding-left: 25px;
+    padding-right: 25px;
 }
 form{
     margin-top:30px
