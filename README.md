@@ -126,7 +126,7 @@ If you end up not developing some features you hoped to implement, you can inclu
 ## Testing
 🚨**Required** 
 Once I was happy with the overall layout and style of the project, I began testing. Firstly, I checked all pages at different browser sizes in dev tools to ensure they maintained their structural integrity and looked visually appealing.
-The menu page looked good but there were issues with the home and bookings page.
+The menu and bookings pages looked good but there were issues with the home page.
  
 The first issue I noticed was at Mobile S - 320px, the Menu and Reservations links wouldn't fit on the same line. This looked unprofessional as the boxes weren't lined up. I adjusted the width of the boxes to 40% which created space for them to be on the same line. I also changed 'Reservations' to 'Bookings' so it would fit in a smaller space. With this issue fixed, the home page looked good at this browser size.
  
@@ -143,7 +143,18 @@ The menu page looked good at all browser sizes, but some of the menu items were 
 image: menu-item-before.png
 image: menu-item-after.png
 
+Although the above issues were the main problems when resizing the browser, I noticed the hero, about and bookings images weren't as clear at smaller browser sizes. On the home page, the hero image only showed a small slice on a Mobile S - 320px browser. To solve this issue, I introduced a media query, where at 1170px wide and below, the code implements  background-size: 100% auto along with other style changes. 
 
+The same issue occured for the bookings image, and again I used a media query to implement a similar style change at 800px. 
+
+image : hero-image-before.png
+image : hero-image-after.png
+
+form needs to have required
+
+include back to top links
+
+include home links on form response
 
 ## Validation Testing
 🚨**Required** 
