@@ -86,7 +86,7 @@ The main heading is the largest font size, to capture the users attention when t
 🚀 **merit & beyond**
 The images on the home page were chosen as they appear to be plant based dishes, and are beautifully presented, providing a good first impression of the restaurant's food. The three images on the menu page are designed to give a feel of the range of dishes the restaurant offers, with a main course dish, a dessert dish and raw ingredients being presented. The bookings page features an image of the restaurant. This was chosen as a user who visits the booking page is likely already convinced that they like the food, and the image of the restaurant allows them to imagine further what the experience of dining there would be like, enticing them to fill out the booking form.
 
-## Site Structure
+## Site Structure and Features
 🚀 **merit & beyond**
 The site is broken down into three main pages : Home, Menu and Bookings. There is an extra page that is accessed once the bookings form is filled in. Each page has :
  
@@ -95,33 +95,20 @@ The site is broken down into three main pages : Home, Menu and Bookings. There i
  
 The home page begins with the hero image and cover text, followed by an about section with text and an additional image of a dish. There are then links to the menu and bookings page, before a section containing the opening hours.
  
-The menu page contains three dishes, and a full menu, with dishes described in detail.
+The menu page contains three dishes, and a full menu, with dishes described in detail. At the bottom of the menu is a link to the home page.
  
 The bookings page features a picture of the restaurant, with a form to request a table underneath. If all the fields are completed, the 'request table' button links to the extra page 'form-response.html'. This contains the same image as the bookings page and features a thank you message along with a link to the home page.
 
-
-
-# Features
-🚨**Required** 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
-
-## Implemented Features
-🚨**Required** 
-
-It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
+The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes.
 
 Don't forget your 404 error page.
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 ## Future Features
 🚀 **merit & beyond**
 
-Use this section to discuss plans for additional features to be implemented in the future
+An additional feature that could be added to the site is the inclusion of more menus. This might look like the menu page having links to a tasting menu, a la carte menu, or drinks menu that open as a pdf on a seperate page.
 
-If you end up not developing some features you hoped to implement, you can include those in this section too.
-
+The booking system could also be made more sophisticated, with the times the user can select being restricted to opening hours. 
 
 ## Testing
 ### Resizing Browser ###
