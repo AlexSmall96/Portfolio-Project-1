@@ -56,7 +56,11 @@ As a site user I want to:
 
 ### Website Owner
 🚀 **merit & beyond**
-
+As a site owner I want to:
+ 
+- Present the restaurant in a way that attracts most customers
+- Present my ideas and philosophy behind the restaurant concisely and clearly
+- Provide an overview of the food the restaurant offers
 
 ## Design Choices
 🚀 **merit & beyond**
