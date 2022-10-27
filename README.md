@@ -124,7 +124,8 @@ If you end up not developing some features you hoped to implement, you can inclu
 
 
 ## Testing
-🚨**Required** 
+### Resizing Browser ###
+
 Once I was happy with the overall layout and style of the project, I began testing. Firstly, I checked all pages at different browser sizes in dev tools to ensure they maintained their structural integrity and looked visually appealing.
 The menu and bookings pages looked good but there were issues with the home page.
  
@@ -133,35 +134,48 @@ The first issue I noticed was at Mobile S - 320px, the Menu and Reservations lin
 image: links-overflow-before.png
 image: links-overflow-after.png
 
-The home page maintained its structure at all other browser sizes except 4K - 2560px. At this size, the about secion was wider than the hero image. I added max-width: 1124px to the style of the about section and it solved the issue. I also noticed the cover text box had fallen below the hero image. This required me to change position: absolute to position : relative and remove the transform style.
+The home page maintained its structure at all other browser sizes except 4K - 2560px. At this size, the about secion was wider than the hero image. 
 
-image: about-too-wide-before.png
-image: about-too-wide-after.png
+![](documentation/about-too-wide-before.png)
 
-The menu page looked good at all browser sizes, but some of the menu items were too squashed and some lines had only one word. I added a minimum width to the menu section to allow more space for the items at smaller browser sizes.
+I added max-width: 1124px to the style of the about section and it solved the issue. I also noticed the cover text box had fallen below the hero image. This required me to change position: absolute to position : relative and remove the transform style.
 
-image: menu-item-before.png
-image: menu-item-after.png
+![](documentation/about-too-wide-after.png)
 
-Although the above issues were the main problems when resizing the browser, I noticed the hero, about and bookings images weren't as clear at smaller browser sizes. On the home page, the hero image only showed a small slice on a Mobile S - 320px browser. To solve this issue, I introduced a media query, where at 1170px wide and below, the code implements  background-size: 100% auto along with other style changes. 
+The menu page looked good at all browser sizes, but some of the menu items were too squashed and some lines had only one word.
+![](documentation/menu-item-before.png)
+
+ I added a minimum width to the menu section to allow more space for the items at smaller browser sizes.
+
+![](documentation/menu-item-after.png)
+
+### Integrity of Images and Text ###
+Although the above issues were the main problems when resizing the browser, I noticed the hero, about and bookings images weren't as clear at smaller browser sizes. On the home page, the hero image only showed a small slice on a Mobile S - 320px browser. 
+
+![](documentation/hero-image-before.png)
+
+To solve this issue, I introduced a media query, where at 1170px wide and below, the code implements  background-size: 100% auto along with other style changes. 
+
+![](documentation/hero-image-after.png)
 
 The same issue occured for the bookings image, and again I used a media query to implement a similar style change at 800px. 
+![](documentation/bookings-image-before.png)
+![](documentation/bookings-image-after.png)
 
-image : hero-image-before.png
-image : hero-image-after.png
-image: bookings-image-before.png
-image: bookings-image-after.png
+The about section also had a similar problem when resizing the browser window, but this was also affected by the text. 
+![](documentation/about-image-before.png)
 
-The about section also had a similar problem when resizing the browser window, but this was also affected by the text. To solve this, I introduced a media query that placed the image below the text at 1170px wide and below. At this point, the text font size and the height of the section change. The result is much more visually pleasing and the layout flows alot better.
+To solve this, I introduced a media query that placed the image below the text at 1170px wide and below. At this point, the text font size and the height of the section change. The result is much more visually pleasing and the layout flows alot better.
 
-image: about-image-before.png
-image: about-image-after.png
+![](documentation/about-image-after.png)
+ 
+### Form Functionality ###
+When testing the functionality of the form, I realised the form could be inputted without entering any information. This could be confusing to the user, as a message confirming the request has been recieved then appears. I added a reuquired attribute to each input, as I decided each input was necessary information about the user/customer. 
 
-form needs to have required
+### Links ###
+To make the experience more complete for the user, I decided to add a home link on the form response page, which takes the user back to the home page. Although the menu page didn't have any structural issues with testing, I noticed it could be made more convenient for the user by adding a back to top link at the bottom of the menu, as the navigation bar isn't visible after scrolling to the bottom of the menu.
 
-include back to top links
-
-include home links on form response
+The external links in the footer all open on a new browser window.
 
 ## Validation Testing
 🚨**Required** 
