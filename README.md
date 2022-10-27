@@ -75,6 +75,10 @@ The white background of the main body aims to provide a stylish classical, look.
 
 ### Typography
 🚀 **merit & beyond**
+The font used on the site is [Oxygen](https://fonts.google.com/specimen/Oxygen?query=oxygen) from google fonts. I thought this font looked professional yet relaxed.
+ 
+The main heading is the largest font size, to capture the users attention when they first enter the site. The headers of each section are slightly smaller in font size and with a letter spacing. Again, I felt like this added to the relaxed yet professional feel. The headers of subsections, for example in the about section and the links to other pages, are smaller than the header sections and don't have letter spacing, but are still in bold. This helps the user to understand what pieces of text go together.
+- include screenshots of fonts used
 
 
 
