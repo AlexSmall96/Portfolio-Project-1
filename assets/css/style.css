@@ -73,8 +73,10 @@ a {
     top: 50%;
 }
 
-#cover-text h2{
+#cover-text p{
     padding: 45px 0;
+    font-size:x-large;
+    letter-spacing: 3px;
 }
 
 
