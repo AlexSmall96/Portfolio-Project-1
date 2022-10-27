@@ -2,6 +2,8 @@
 
 VeGastronomy is a fictional, fully plant based, fine dining restaurant based in Edinburgh, Scotland. The cuisine is based on classical dishes, reinvented with a vegan twist. The restaurant aims to fill the gap in the vegan niche of the Edinburgh catering industry, providing a truly remarkable dining experience while maintaining the restaurants ethics and philosophy of being plant based. 
 
+The title of the restuarant is a combination of Vegan and the word "Gastronomy" which is defined as "the art and knowledge involved in preparing and eating good food". 
+
 This site is designed to attract customers, provide an overview of the restaurants philosophy, cuisine and style, and allow customers to make bookings.
 
 - Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
@@ -27,91 +29,56 @@ Generate after readme is complete by copying and pasting your readme from this p
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 # UX
-🚀 **merit & beyond**
-
-This particular section can be blank, it's just a wrapper for the child sections.
-
-The subsections provide insight into your UX process, focusing on why you made the user experience decisions you did. If the target audience and user base drove you to a certain look and feel call it out so the accessors can't be objective and say I don't like it. 
-
+🚀 **merit & beyond** 
 ## Target Audience
 🚀 **merit & beyond**
 
 Although the idea behind this restaurant was to fill a gap in Edinburgh's vegan catering industry, and provide vegans with the oppurtunity to experience fine dining cuisine, the resturant is targeted towards everyone. It aims to showcase that you can still eat delicious food and be vegan. 
 
+
 ## Project Goals
 🚀 **merit & beyond**
 
-This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant. The three images on the menu page are designed to give a feel of what dishes the resturant offers, with a main course dish, a dessert dish and raw ingredients being presented. The bookings page is designed to allow potential customers to get in contact with the restaurant and request a booking. 
-Write bullet points of what this site is trying to achieve.  
-- This site presents X to Y with specific features.
-- Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
+This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intendted to be intuitive and easy to follow, with lots of well positioned naviation links. The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant. The menu page aims to provide a sample of what the dining experience is like at the restaurant, while the bookings page is designed to allow customers to easily request a table at the restaurant. The footer aims to allow users to easily get in contact with the restaurant, or find out more information on social media.
 
 ## User Stories
 🚀 **merit & beyond**
-
-This section lists outs as a X I want Y, so I can Z format. It helps drive out the features you will build.
-
-You can have many kinds of users so feel free to have one section or the subsections listed or more
-
 ### Site User
 🚀 **merit & beyond**
+As a site user I want to:
+ 
+- Understand what the business is
+- Understand the restaurants philosophy and style
+- Easily navigate through different sections of the site
+- Learn more about what kind of food the restaurant offers
+- Easily book a table to visit the restaurant
+- View the restaurants social media links for more information or to contact the restaurant
 
 ### Website Owner
 🚀 **merit & beyond**
 
-### Developer
-🚀 **merit & beyond**
 
 ## Design Choices
 🚀 **merit & beyond**
 
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
-
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
 
 ### Colors
 🚀 **merit & beyond**
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like [coolors.co](https://coolors.co/)
 
 ### Typography
 🚀 **merit & beyond**
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+
 
 ### Imagery
 🚀 **merit & beyond**
 
-Explain why you used certain icons and images on your site & tie it back into your target audience
-
-### Animations and Transitions
-🚀 **merit & beyond**
-
-- discuss any special animations or transitions you've included 
-- special hover state effects
 
 ## Site Structure
 🚀 **merit & beyond**
 
-Talk about if the site is 1 page vs multiple pages. Say what loads by default & how to get access to other pages/sections.
 
-## Wireframes
-🚀 **merit & beyond**
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a separate .md file, or open a pdf file in the project itself or screenshots in line.
-
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product. Or you can use the [Balsamiq](https://code-institute-room.slack.com/archives/C0L316Z96/p1640099614368000) tool that Code Institute provides students access to. 
-
-## mobile
-🚀 **merit & beyond**
-
-## tablet
-🚀 **merit & beyond**
-
-## desktop
-🚀 **merit & beyond**
 
 # Features
 🚨**Required** 
@@ -138,9 +105,7 @@ If you end up not developing some features you hoped to implement, you can inclu
 ## Testing
 🚨**Required** 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the Features section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Validation Testing
 🚨**Required** 
