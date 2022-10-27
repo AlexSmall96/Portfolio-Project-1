@@ -59,6 +59,8 @@ a {
     background: url('../../assets/images/hero-image.jpeg') no-repeat center center;
 }
 
+
+
 #cover-text{
     width:30%;
     min-width:200px;
@@ -79,7 +81,23 @@ a {
     letter-spacing: 3px;
 }
 
-
+@media only screen and (max-width: 800px) {
+    #hero-image {
+        height: 175px;
+        background-size: 100% auto;
+    }
+    #cover-text{
+        width:30%;
+        min-width:100px;
+        height:50px;
+        padding:10px;
+    }
+    #cover-text p{
+        padding: 10px 0;
+        font-size:small;
+        letter-spacing: 3px;
+    }
+  }
 /*About section */
 
 #about{
@@ -103,6 +121,7 @@ a {
     background-size: 100% auto;
     float:left;
 }
+
 
 #about-text{
     width: 45%;
@@ -247,7 +266,14 @@ label{
     float:right;
     text-align:right;
 }
-
+@media only screen and (max-width: 800px) {
+    #bookings-image{
+        height: 175px;
+        width: 90%;
+        background: url('../../assets/images/bookings-image.jpeg') no-repeat center center;
+        background-size: 100% auto;
+    }
+  }
 
 /*Form Response Page */
 
