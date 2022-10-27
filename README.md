@@ -1,9 +1,9 @@
 # VeGastronomy 
 
-VeGastronomy is a fully plant based, fine dining restaurant based in Edinburgh, Scotland. The cuisine is based on classical dishes, reinvented with a vegan twist. This site is designed to attract customers, provide an overview of the restaurants philosophy, cuisine and style, and allow customers to make bookings.
+VeGastronomy is a fictional, fully plant based, fine dining restaurant based in Edinburgh, Scotland. The cuisine is based on classical dishes, reinvented with a vegan twist. The restaurant aims to fill the gap in the vegan niche of the Edinburgh catering industry, providing a truly remarkable dining experience while maintaining the restaurants ethics and philosophy of being plant based. 
 
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
+This site is designed to attract customers, provide an overview of the restaurants philosophy, cuisine and style, and allow customers to make bookings.
+
 - Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
 
 ## Live Site
@@ -11,15 +11,13 @@ VeGastronomy is a fully plant based, fine dining restaurant based in Edinburgh, 
 
 - Include a link to deployed project (typically a GitHub Page on  github.io)
 
-## Repository
-🚨**Required** 
+## Repository 
 
-- Include a Link to the GitHub repository
+https://github.com/AlexSmall96/VeGastronomy
 
-## Author
-🚨**Required** 
+## Author 
 
-DEVELOPER_NAME (take credit for the work you do!)
+Alex Small
 
 ## Table of Contents
 🚀 **merit & beyond**
@@ -38,11 +36,12 @@ The subsections provide insight into your UX process, focusing on why you made t
 ## Target Audience
 🚀 **merit & beyond**
 
-Your site is most likely geared to a certain audience, and your design choices should tie into them, pay attention to age groups, genders, demographics, & interests of the people you are hoping to use your site. If it's everyone, say so.
+Although the idea behind this restaurant was to fill a gap in Edinburgh's vegan catering industry, and provide vegans with the oppurtunity to experience fine dining cuisine, the resturant is targeted towards everyone. It aims to showcase that you can still eat delicious food and be vegan. 
 
 ## Project Goals
 🚀 **merit & beyond**
 
+This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant. The three images on the menu page are designed to give a feel of what dishes the resturant offers, with a main course dish, a dessert dish and raw ingredients being presented. The bookings page is designed to allow potential customers to get in contact with the restaurant and request a booking. 
 Write bullet points of what this site is trying to achieve.  
 - This site presents X to Y with specific features.
 - Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
