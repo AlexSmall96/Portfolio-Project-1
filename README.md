@@ -64,7 +64,7 @@ As a site owner I want to:
 
 ## Design Choices
 🚀 **merit & beyond**
-
+The look of the site aims to be similar in style to other traditional fine dining restaurants. This drove me to use a clean background, with professional looking text. Some of the choice of style has a more modern feel to it, such as the footer icons, or the choice of font/letter spacing. This reflects the fact that vegan dining is a relatively modern trend.
 
 ### Colors
 🚀 **merit & beyond**
