@@ -20,12 +20,15 @@ body{
     margin:auto;
     background-color:white;
 }
+
 h2{
     letter-spacing: 4px;
 }
+
 a:hover{
     text-decoration: underline;
 }
+
 /*Header*/
 
 header{
@@ -38,6 +41,7 @@ ul{
     padding:15px;
     margin:auto;
 }
+
 nav a{
     padding:10px;
 }
@@ -50,6 +54,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 /*Hero image section */
 
 #hero-image{
@@ -84,18 +89,21 @@ a {
         height: 175px;
         background-size: 100% auto;
     }
+
     #cover-text{
         width:30%;
         min-width:100px;
         height:50px;
         padding:10px;
     }
+
     #cover-text p{
         padding: 10px 0;
         font-size:small;
         letter-spacing: 3px;
     }
   }
+
 /*About section */
 
 #about{
@@ -120,7 +128,6 @@ a {
     float:right;
 }
 
-
 #about-text{
     width: 45%;
     height: 400px;
@@ -135,12 +142,14 @@ a {
         height:650px;
         padding:15px;
     }
+
     #about-text{
         height:250px;
         font-size: small;
         float:none;
         width: 100%;
     }
+    
     #about-image{
         height: 400px;
         background-size: 100% auto;
@@ -148,14 +157,17 @@ a {
         width: 100%;
     }
   }
+
 @media only screen and (max-width: 731px) {
     #about-text{
         height:315px;
 }
+
     #about-image{
         height: 300px;
 }
 }
+
 /*Links section*/
 
 #links{
@@ -171,9 +183,11 @@ a {
     border-style:double;
     border-width:1px;
 }
+
 #menu-link{
     float:left;
 }
+
 #menu-link h3, #reservations-link h3, #home-link h3{
     padding: 15px 0;
 }
@@ -203,9 +217,11 @@ a {
 #hours h2{
     padding-bottom:30px;
 }
+
 table{
     margin:auto;
 }
+
 td{
     padding:10px;
 }
@@ -223,8 +239,9 @@ footer h4{
 footer td{
     padding:30px;
 }
-/*
+
 /*Menu Page*/
+
 .menu-image{
     width:30%;
 }
@@ -239,7 +256,9 @@ footer td{
     margin-bottom:20px;
     padding-top:20px;
 }
+
 /*Food menu section*/
+
 #food{
     width:50%;
     min-width:200px;
@@ -255,6 +274,7 @@ footer td{
     padding:15px;
     font-style: italic;
 }
+
 /*Reservations Page*/
 
 #bookings-image{
@@ -264,14 +284,17 @@ footer td{
     background: url('../../assets/images/bookings-image.jpeg') no-repeat center center;
     margin-bottom:30px;
 }
+
 #bookings-message{
     padding-left: 25px;
     padding-right: 25px;
 }
+
 form{
     margin-top:30px;
     padding-right:15px;
 }
+
 input {
     text-align: center;
     width: 100%;
@@ -284,7 +307,7 @@ input {
     border-color:darkgray;
   }
 
-  input[type=submit]:hover{
+input[type=submit]:hover{
     border-style: solid;
     border-width: 1px;
     border-color:black;
@@ -295,6 +318,7 @@ label{
     float:right;
     text-align:right;
 }
+
 @media only screen and (max-width: 800px) {
     #bookings-image{
         height: 175px;
