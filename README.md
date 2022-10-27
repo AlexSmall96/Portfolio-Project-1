@@ -84,7 +84,7 @@ The main heading is the largest font size, to capture the users attention when t
 
 ### Imagery
 🚀 **merit & beyond**
-
+The images on the home page were chosen as they appear to be plant based dishes, and are beautifully presented, providing a good first impression of the restaurant's food. The three images on the menu page are designed to give a feel of the range of dishes the restaurant offers, with a main course dish, a dessert dish and raw ingredients being presented. The bookings page features an image of the restaurant. This was chosen as a user who visits the booking page is likely already convinced that they like the food, and the image of the restaurant allows them to imagine further what the experience of dining there would be like, enticing them to fill out the booking form.
 
 ## Site Structure
 🚀 **merit & beyond**
