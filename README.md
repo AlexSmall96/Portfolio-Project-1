@@ -88,6 +88,16 @@ The images on the home page were chosen as they appear to be plant based dishes,
 
 ## Site Structure
 🚀 **merit & beyond**
+The site is broken down into three main pages : Home, Menu and Bookings. There is an extra page that is accessed once the bookings form is filled in. Each page has :
+ 
+- A header conisiting of the name of the restaurant and the navigation menu.
+- A footer containing social media links.
+ 
+The home page begins with the hero image and cover text, followed by an about section with text and an additional image of a dish. There are then links to the menu and bookings page, before a section containing the opening hours.
+ 
+The menu page contains three dishes, and a full menu, with dishes described in detail.
+ 
+The bookings page features a picture of the restaurant, with a form to request a table underneath. If all the fields are completed, the 'request table' button links to the extra page 'form-response.html'. This contains the same image as the bookings page and features a thank you message along with a link to the home page.
 
 
 
