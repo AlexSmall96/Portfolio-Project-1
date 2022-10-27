@@ -149,6 +149,13 @@ The same issue occured for the bookings image, and again I used a media query to
 
 image : hero-image-before.png
 image : hero-image-after.png
+image: bookings-image-before.png
+image: bookings-image-after.png
+
+The about section also had a similar problem when resizing the browser window, but this was also affected by the text. To solve this, I introduced a media query that placed the image below the text at 1170px wide and below. At this point, the text font size and the height of the section change. The result is much more visually pleasing and the layout flows alot better.
+
+image: about-image-before.png
+image: about-image-after.png
 
 form needs to have required
 
