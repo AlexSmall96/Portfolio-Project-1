@@ -116,10 +116,11 @@ The booking system could also be made more sophisticated, with the times the use
 Once I was happy with the overall layout and style of the project, I began testing. Firstly, I checked all pages at different browser sizes in dev tools to ensure they maintained their structural integrity and looked visually appealing.
 The menu and bookings pages looked good but there were issues with the home page.
  
-The first issue I noticed was at Mobile S - 320px, the Menu and Reservations links wouldn't fit on the same line. This looked unprofessional as the boxes weren't lined up. I adjusted the width of the boxes to 40% which created space for them to be on the same line. I also changed 'Reservations' to 'Bookings' so it would fit in a smaller space. With this issue fixed, the home page looked good at this browser size.
- 
-image: links-overflow-before.png
-image: links-overflow-after.png
+The first issue I noticed was at Mobile S - 320px, the Menu and Reservations links wouldn't fit on the same line. This looked unprofessional as the boxes weren't lined up.
+ ![](documentation/links-overflow-before.png)
+  I adjusted the width of the boxes to 40% which created space for them to be on the same line. I also changed 'Reservations' to 'Bookings' so it would fit in a smaller space. With this issue fixed, the home page looked good at this browser size.
+
+![](documentation/links-overflow-after.png)
 
 The home page maintained its structure at all other browser sizes except 4K - 2560px. At this size, the about secion was wider than the hero image. 
 
@@ -165,36 +166,17 @@ To make the experience more complete for the user, I decided to add a home link 
 The external links in the footer all open on a new browser window.
 
 ## Validation Testing
-🚨**Required** 
-
-In this section you should write up any websites you used to validate your code and include screenshots.
-
-**Validation issues are an automatic failure** You should run these about 3 times:
-- when you first deploy your site
-- just when you think you are done testing
-- right before you submit because 😼, ⚽, 🐶 & 👼 can eliminate a closing tag or curly bracket without you noticing.
 
 ### CSS Validation
-🚨**Required** 
-
-If you only have one CSS file used on all pages, you only need to run this once for your deployed url, but if you have different files for different pages, run it by direct input per file.
-
-- include a screenshot for each CSS file which includes the Green no ERRORS bar,  two check marks
-
-[CSS validator](https://jigsaw.w3.org/css-validator/)
-
-**styles.css**
-![img.png](documentation/images/css-validation.png)
+The file style.css have been validated via the official [CSS validator](https://jigsaw.w3.org/css-validator/) and has passed.
+![](documentation/css-pass.png)
 
 ### HTML Validation
-🚨**Required** 
+All four html files have been validated via the official [HTML Validator](https://validator.w3.org/) and have passed.
 
-If you only have one HTML file for your project, you only need to run this once for your deployed url, but if you have different files even for a thankyou or 404, run it by direct input per file or by deployed url per file.
+[GoFullPage extension in chrome](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl):
 
-- include a screenshot for each HTML file with the Blue Nu Html checker down to the blue checking complete bit. It's ok to have info and warnings. 
-- You may need a scrolling screenshot to capture this one. I tend to use the [GoFullPage extension in chrome](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl):
-
-[HTML Validator](https://validator.w3.org/)
+)
 
 **index.html**
 ![img.png](documentation/images/index-html-validation.png)
