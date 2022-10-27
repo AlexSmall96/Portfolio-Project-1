@@ -68,7 +68,10 @@ The look of the site aims to be similar in style to other traditional fine dinin
 
 ### Colors
 🚀 **merit & beyond**
-
+The white background of the main body aims to provide a stylish classical, look. This also ties into the aim of giving it a traditional fine dining feel. The grey in the margins was chosen so it would contrast with the main white section. The blue in the footer was used to give it a modern twist.
+- include a screenshot of your pallet using a tool like
+ 
+[coolors.co](https://coolors.co/)
 
 ### Typography
 🚀 **merit & beyond**
