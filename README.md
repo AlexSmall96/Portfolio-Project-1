@@ -174,15 +174,17 @@ The file style.css have been validated via the official [CSS validator](https://
 ### HTML Validation
 All four html files have been validated via the official [HTML Validator](https://validator.w3.org/) and have passed.
 
-[GoFullPage extension in chrome](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl):
+- Home.html
+![](documentation/home-pass.png)
 
-)
+- Menu.html
+![](documentation/menu-pass.png)
 
-**index.html**
-![img.png](documentation/images/index-html-validation.png)
+- Bookings.html
+![](documentation/bookings-pass.png)
 
-**404.html**
-![img.png](documentation/images/404-html-validation.png)
+- Form-Response.html
+![](documentation/form-response-pass.png)
 
 ## Compatibility and Responsive Testing
 🚨**Required** 
