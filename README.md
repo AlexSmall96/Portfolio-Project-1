@@ -69,7 +69,6 @@ The look of the site aims to be similar in style to other traditional fine dinin
 ### Colors
 🚀 **merit & beyond**
 The white background of the main body aims to provide a stylish classical, look. This also ties into the aim of giving it a traditional fine dining feel. The grey in the margins was chosen so it would contrast with the main white section. The blue in the footer was used to give it a modern twist.
-- include a screenshot of your pallet using a tool like
  
 ![](documentation/colour-pallete.png)
 
@@ -78,8 +77,10 @@ The white background of the main body aims to provide a stylish classical, look.
 The font used on the site is [Oxygen](https://fonts.google.com/specimen/Oxygen?query=oxygen) from google fonts. I thought this font looked professional yet relaxed.
  
 The main heading is the largest font size, to capture the users attention when they first enter the site. The headers of each section are slightly smaller in font size and with a letter spacing. Again, I felt like this added to the relaxed yet professional feel. The headers of subsections, for example in the about section and the links to other pages, are smaller than the header sections and don't have letter spacing, but are still in bold. This helps the user to understand what pieces of text go together.
-- include screenshots of fonts used
 
+![Header Size](documentation/header.png)
+![Sub-Header Size](documentation/sub-header.png)
+![Second Sub-Header Size](documentation/sub-sub-header.png)
 
 
 ### Imagery
