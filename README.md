@@ -93,16 +93,28 @@ The site is broken down into three main pages : Home, Menu and Bookings. There i
  
 - A header conisiting of the name of the restaurant and the navigation menu.
 - A footer containing social media links.
- 
+
+ ![](documentation/header-feature.png)
+ ![](documentation/footer-feature.png)
+
 The home page begins with the hero image and cover text, followed by an about section with text and an additional image of a dish. There are then links to the menu and bookings page, before a section containing the opening hours.
- 
-The menu page contains three dishes, and a full menu, with dishes described in detail. At the bottom of the menu is a link to the home page.
- 
+
+ ![](documentation/hero-image-cover-text.png)
+![](documentation/about-feature.png)
+  ![](documentation/links-opening-hours.png)
+
+The menu page contains pictures of three dishes, and a full menu, with dishes described in detail. At the bottom of the menu is a link to the home page.
+
+![](documentation/menu-images.png)
+![](documentation/menu-link.png)
+
 The bookings page features a picture of the restaurant, with a form to request a table underneath. If all the fields are completed, the 'request table' button links to the extra page 'form-response.html'. This contains the same image as the bookings page and features a thank you message along with a link to the home page.
 
-The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes.
+![](documentation/restaurant.png)
+![](documentation/form.png)
+![](documentation/form-response-feature.png)
 
-Don't forget your 404 error page.
+The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes. See testing section for screenshots.
 
 ## Future Features
 🚀 **merit & beyond**
@@ -193,56 +205,6 @@ All four html files have been validated via the official [HTML Validator](https:
 - Form-Response.html
 ![](documentation/form-response-pass.png)
 
-## Compatibility and Responsive Testing
-🚨**Required** 
-
-Minimally you should use dev tools and emulators to try to test you site on various screen sizes and browsers and note it in a table:
-
-I ensured my site was worked well, and looked nice on a variety of devices & browsers as noted in the table below:
-
-
-
-
-## Manual Testing
-🚨**Required** 
-
-For any scenarios that have not been automated, test the user stories/features manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios in markdown such as:
-
-**Manual Testing For Contact Form**
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-Or you can use markdown check boxes and write them up per feature:
-
-**Manual Testing For Contact Form**
-- [x] try to submit 
-- [x] Try to submit the empty form and verify that an error message about the required fields appears
-- [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
-- [x] Try to submit the form with all inputs valid and verify that a success message appears.
-- [x] no console errors
-- [x] submit goes to code institute data dump page in new tab
-- [x] looks good on mobile (one column)
-- [x] looks good on tablet (two columns)
-- [x] looks good on desktop (two columns but not SUPER HUGE)
-
-Or you can use a spreadsheet
-    
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
-
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
-
-A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
-
-```
-var docWidth = document.documentElement.offsetWidth;
-[].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
-```
-
-
-
 ## Outstanding Defects
 🚨**Required** 
 
@@ -324,10 +286,10 @@ If you are really ambitious, you can use the [VoxReader](https://chrome.google.c
 - gitpod
 - github
 - google fonts
-
-
-
 - Coolors.co
+
+
+
 - amiresponsive
 - table of contents creator
 - markdown table generator
