@@ -114,8 +114,8 @@ The booking system could also be made more sophisticated, with the times the use
 ## Testing
 ### Resizing Browser ###
 
-Once I was happy with the overall layout and style of the project, I began testing. Firstly, I checked all pages at different browser sizes in dev tools to ensure they maintained their structural integrity and looked visually appealing.
-The menu and bookings pages looked good but there were issues with the home page.
+Once I was happy with the overall layout and style of the project, I began testing. Firstly, I checked all pages in dev tools at the browser sizes : Mobile S - 320px, Mobile M - 375px, Mobile L - 425xp, Tablet 768px, Laptop - 1024px and 4K - 2560px, to ensure they maintained their structural integrity and looked visually appealing.
+The menu and bookings pages looked good at all sizes but there were issues with the home page.
  
 The first issue I noticed was at Mobile S - 320px, the Menu and Reservations links wouldn't fit on the same line. This looked unprofessional as the boxes weren't lined up.
  ![](documentation/links-overflow-before.png)
@@ -157,9 +157,15 @@ The about section also had a similar problem when resizing the browser window, b
 To solve this, I introduced a media query that placed the image below the text at 1170px wide and below. At this point, the text font size and the height of the section change. The result is much more visually pleasing and the layout flows alot better.
 
 ![](documentation/about-image-after.png)
+
+
  
 ### Form Functionality ###
-When testing the functionality of the form, I realised the form could be inputted without entering any information. This could be confusing to the user, as a message confirming the request has been recieved then appears. I added a reuquired attribute to each input, as I decided each input was necessary information about the user/customer. Each input is restricted to its own form of data as expected, for example number inputs only allow numbers and text inputs only allow text.
+When testing the functionality of the form, I realised the form could be inputted without entering any information. This could be confusing to the user, as a message confirming the request has been recieved appears upon completing the form. I added a reuquired attribute to each input, as I decided each input was necessary information about the user/customer. After implementing this change, the user was unable to submit the form with any blank inputs and the below message appears under the blank input.
+
+![](documentation/form-after.png)
+
+ Each input is restricted to its own form of data as expected, for example number inputs only allow numbers and text inputs only allow text.
 
 ### Links ###
 To make the experience more complete for the user, I decided to add a home link on the form response page, which takes the user back to the home page. Although the menu page didn't have any structural issues with testing, I noticed it could be made more convenient for the user by adding a back to top link at the bottom of the menu, as the navigation bar isn't visible after scrolling to the bottom of the menu.
@@ -194,54 +200,8 @@ Minimally you should use dev tools and emulators to try to test you site on vari
 
 I ensured my site was worked well, and looked nice on a variety of devices & browsers as noted in the table below:
 
-| TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
-|-------------------------------|-------------|------------|---------------|
-| real phone: motog6            | chrome 78   | android 8  | XS 360 x 640  |
-| browser stack: iPhone5s       | safari  13  | iOs        | XS 320 x 568  |
-| dev tools emulator: pixel 2   | firefox  69 | android 8  | SM 411 x 731  |
-| browserstack: iPhone 10x      | Chrome 78   | iOs 11     | SM 375 x 812  |
-| browserstack: nexus 7 - vert  | Chrome 78   | android 7  | M 600 x 960   |
-| real tablet: ipad mini - vert | safari  13  | iOs 6      | M 768 x 1024  |
-| browserstack: nexus 7 - horiz | firefox 69  | android 7  | LG 960 x 600  |
-| chrome emulator: ipad - horiz | safari 13   | iOs        | LG 1024 x 768 |
-| browserstack windows PC       | Chrome 78   | windows 10 | XL 1920 x 946 |
-| real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-| browserstack windows pc       | IE Edge 88  | windows 10 | XL 1920 x 964 |
 
 
-🚀 **merit & beyond**
-Document why you chose the devices:
-
-1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platform(s) and screen sizes you expect your users to belong to. 
-
-2. Include a sentence about why you chose the combinations you did.
-
-3. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
-
-4. if you can't find the browser/device/OS combinations you want on Browserstack with your GitHub student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
-
-5. Build a table to summarize the choices you made [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
-
-The combinations above were chosen because of the following information I gathered  from [ga.statcounter.com]( https://gs.statcounter.com/browser-market-share) for the US from Aug-Oct 2021:
-**browser Version Market Share**:
-  - safari iphone: 26.32%
-  - chrome for android: 21.32%
-  - Chrome 105.0: 15.77%
-  - Chrome 104.0: 6.28%
-  - Edge 105: 4.99%
-  - Safari 15.6 3.76%
-**browser Market Share**
-  - chrome: 50.28%
-  - Safari: 34.65%
-  - Edge: 6.37%
-  - Firefox: 3.52%
-  - Samsung Internet: 2.04%
-  - Opera: 0.89%
-**platform breakdown**
-  - mobile: 51.26%
-  - desktop: 45.73%
-  - tablet: 2.97%
-  - console: 0.03%
 
 ## Manual Testing
 🚨**Required** 
