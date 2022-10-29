@@ -67,7 +67,7 @@ Although the idea behind this restaurant was to fill a gap in Edinburgh's vegan 
 
 ## Project Goals
 
-This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intended to be intuitive and easy to follow, with lots of well positioned naviation links. 
+This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intended to be intuitive and easy to follow, with lots of well positioned navigation links. 
 
 ## User Stories
 ### Site User
