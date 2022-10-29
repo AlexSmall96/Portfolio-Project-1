@@ -10,7 +10,7 @@ This site is designed to attract customers, provide an overview of the restauran
 
 ## Live Site 
 
-- Include a link to deployed project (typically a GitHub Page on  github.io)
+https://alexsmall96.github.io/VeGastronomy/index.html
 
 ## Repository 
 
