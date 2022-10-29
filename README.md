@@ -73,19 +73,19 @@ This site is intended to give the public a concise yet alluring overview of the 
 ### Site User
 As a site user I want to:
  
-- Understand what the business is
-- Understand the restaurants philosophy and style
-- Easily navigate through different sections of the site
-- Learn more about what kind of food the restaurant offers
-- Easily book a table to visit the restaurant
-- View the restaurants social media links for more information or to contact the restaurant
+- Understand what the business is.
+- Understand the restaurants philosophy and style.
+- Easily navigate through different sections of the site.
+- Learn more about what kind of food the restaurant offers.
+- Easily book a table to visit the restaurant.
+- View the restaurants social media links for more information or to contact the restaurant.
 
 ### Website Owner
 As a site owner I want to:
  
-- Present the restaurant in a way that attracts most customers
-- Present my ideas and philosophy behind the restaurant concisely and clearly
-- Provide an overview of the food the restaurant offers
+- Present the restaurant in a way that attracts most customers.
+- Present my ideas and philosophy behind the restaurant concisely and clearly.
+- Provide an overview of the food the restaurant offers.
 
 ## Design Choices
 The look of the site aims to be similar in style to other traditional fine dining restaurants. This drove me to use a clean background, with professional looking text. Some of the choice of style has a more modern feel to it, such as the footer icons, or the choice of font/letter spacing. This reflects the fact that vegan dining is a relatively modern trend.
@@ -232,9 +232,9 @@ The external links in the footer all open on a new browser window.
 ### HTML Validation
 - All four html files have been validated via the official [HTML Validator](https://validator.w3.org/) and have passed.
 
-- Home.html
+- Index.html
 
-![](documentation/home-pass.png)
+![](documentation/index-pass.png)
 
 - Menu.html
 
