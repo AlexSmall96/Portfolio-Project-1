@@ -74,7 +74,7 @@ This site is intended to give the public a concise yet alluring overview of the 
 As a site user I want to:
  
 - Understand what the business is.
-- Understand the restaurants philosophy and style.
+- Understand the restaurant's philosophy and style.
 - Easily navigate through different sections of the site.
 - Learn more about what kind of food the restaurant offers.
 - Easily book a table to visit the restaurant.
