@@ -78,7 +78,7 @@ As a site user I want to:
 - Easily navigate through different sections of the site.
 - Learn more about what kind of food the restaurant offers.
 - Easily book a table to visit the restaurant.
-- View the restaurants social media links for more information or to contact the restaurant.
+- View the restaurant's social media links for more information or to contact the restaurant.
 
 ### Website Owner
 As a site owner I want to:
@@ -91,14 +91,14 @@ As a site owner I want to:
 The look of the site aims to be similar in style to other traditional fine dining restaurants. This drove me to use a clean background, with professional looking text. Some of the choice of style has a more modern feel to it, such as the footer icons, or the choice of font/letter spacing. This reflects the fact that vegan dining is a relatively modern trend.
 
 ### Colors
-The white background of the main body aims to provide a stylish classical, look. This also ties into the aim of giving it a traditional fine dining feel. The grey in the margins was chosen so it would contrast with the main white section. The blue in the footer was used to give it a modern twist.
+The white background of the main body aims to provide a stylish, classical look. This also ties into the aim of giving it a traditional, fine dining feel. The grey in the margins was chosen so it would contrast with the main white section. The blue in the footer was used to give it a modern twist.
  
 ![](documentation/colour-pallete.png)
 
 ### Typography
 The font used on the site is [Oxygen](https://fonts.google.com/specimen/Oxygen?query=oxygen) from google fonts. I thought this font looked professional yet relaxed.
  
-The main heading is the largest font size, to capture the users attention when they first enter the site. The headers of each section are slightly smaller in font size and with a letter spacing. Again, I felt like this added to the relaxed yet professional feel. The headers of subsections, for example in the about section and the links to other pages, are smaller than the header sections and don't have letter spacing, but are still in bold. This helps the user to understand what pieces of text go together.
+The main heading is the largest font size, to capture the user's attention when they first enter the site. The headers of each section are slightly smaller in font size and with a letter spacing. Again, I felt like this added to the relaxed yet professional feel. The headers of subsections, for example in the about section and the links to other pages, are smaller than the header sections and don't have letter spacing, but are still in bold. This helps the user to understand what pieces of text go together.
 
 ![Header Size](documentation/header.png)
 ![Sub-Header Size](documentation/sub-header.png)
@@ -151,7 +151,7 @@ These additional links help improve the user experience by making it more conven
 ![](documentation/form-response-feature.png)
 ### Media Queries ###
 
-The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes and make it easier to follow for the user.See testing section for screenshots.
+The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes and make it easier to follow for the user. See testing section for screenshots.
 
 ## Future Features
 
