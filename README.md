@@ -5,12 +5,11 @@ VeGastronomy is a fictional, fully plant based, fine dining restaurant based in 
 The title of the restuarant is a combination of Vegan and the word "Gastronomy" which is defined as "the art and knowledge involved in preparing and eating good food". 
 
 This site is designed to attract customers, provide an overview of the restaurants philosophy, cuisine and style, and allow customers to make bookings.
-
-- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
-
 ## Live Site 
 
 https://alexsmall96.github.io/VeGastronomy/index.html
+
+![](documentation/responsive-image.png)
 
 ## Repository 
 
@@ -21,10 +20,44 @@ https://github.com/AlexSmall96/VeGastronomy
 Alex Small
 
 ## Table of Contents
+- [VeGastronomy](#vegastronomy)
+  * [Live Site](#live-site)
+  * [Repository](#repository)
+  * [Author](#author)
+  * [Table of Contents](#table-of-contents)
+- [UX](#ux)
+  * [Target Audience](#target-audience)
+  * [Project Goals](#project-goals)
+  * [User Stories](#user-stories)
+    + [Site User](#site-user)
+    + [Website Owner](#website-owner)
+  * [Design Choices](#design-choices)
+    + [Colors](#colors)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
+  * [Site Structure and Features](#site-structure-and-features)
+    + [The Home Page](#the-home-page)
+    + [The Menu Page](#the-menu-page)
+    + [The Bookings Page](#the-bookings-page)
+    + [Media Queries](#media-queries)
+  * [Future Features](#future-features)
+  * [Testing](#testing)
+    + [Resizing Browser](#resizing-browser)
+    + [Integrity of Images and Text](#integrity-of-images-and-text)
+    + [Form Functionality](#form-functionality)
+    + [Links](#links)
+  * [Validation Testing](#validation-testing)
+    + [CSS Validation](#css-validation)
+    + [HTML Validation](#html-validation)
+- [Technologies and Languages Used](#technologies-and-languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Code](#code)
 
-Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/)
-**NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # UX
 ## Target Audience
@@ -230,6 +263,11 @@ The external links in the footer all open on a new browser window.
 - amiresponsive
 
 # Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Master Branch.
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 # Credits
 ## Content
