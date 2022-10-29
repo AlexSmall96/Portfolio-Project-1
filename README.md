@@ -34,7 +34,7 @@ Although the idea behind this restaurant was to fill a gap in Edinburgh's vegan 
 
 ## Project Goals
 
-This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intendted to be intuitive and easy to follow, with lots of well positioned naviation links. The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant. The menu page aims to provide a sample of what the dining experience is like at the restaurant, while the bookings page is designed to allow customers to easily request a table at the restaurant. The footer aims to allow users to easily get in contact with the restaurant, or find out more information on social media.
+This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intended to be intuitive and easy to follow, with lots of well positioned naviation links. 
 
 ## User Stories
 ### Site User
@@ -78,30 +78,47 @@ The images on the home page were chosen as they appear to be plant based dishes,
 ## Site Structure and Features
 The site is broken down into three main pages : Home, Menu and Bookings. There is an extra page that is accessed once the bookings form is filled in. Each page has :
  
-- A header conisiting of the name of the restaurant and the navigation menu.
-- A footer containing social media links.
+- A header conisisting of the name of the restaurant and the navigation menu. This allows the user to easily navigate through the site, and provides a common section on each site to easily allow the customer to return to the home page.
+
+- A footer containing social media links. This aims to allow users to easily get in contact with the restaurant, or find out more information on social media.
+
 
  ![](documentation/header-feature.png)
  ![](documentation/footer-feature.png)
+### The Home Page ###
+- The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant.
 
-The home page begins with the hero image and cover text, followed by an about section with text and an additional image of a dish. There are then links to the menu and bookings page, before a section containing the opening hours.
+- The home page begins with the hero image and cover text, followed by an about section with text and an additional image of a dish. 
+
+- There are then links to the menu and bookings page, before a section containing the opening hours and link to the top of the page. 
+These additional links help improve the user experience by making it more convenient to navigate the site.
 
  ![](documentation/hero-image-cover-text.png)
 ![](documentation/about-feature.png)
   ![](documentation/links-opening-hours.png)
+### The Menu Page ###
+- The menu page aims to provide a sample of what the dining experience is like at the restaurant, while the bookings page is designed to allow customers to easily request a table at the restaurant.
 
-The menu page contains pictures of three dishes, and a full menu, with dishes described in detail. At the bottom of the menu is a link to the home page.
+- The menu page contains pictures of three dishes, and a full menu, with dishes described in detail. 
+
+- At the bottom of the menu is a link to the home page. Again, this helps improve the flow of the site and allows the user to easily navigate to the home page.
 
 ![](documentation/menu-images.png)
+![](documentation/menu-items.png)
 ![](documentation/menu-link.png)
+### The Bookings Page ###
+- The bookings page is a convenient and easy to use method to allow the user to book a table.
 
-The bookings page features a picture of the restaurant, with a form to request a table underneath. If all the fields are completed, the 'request table' button links to the extra page 'form-response.html'. This contains the same image as the bookings page and features a thank you message along with a link to the home page.
+- The bookings page features a picture of the restaurant, with a form to request a table underneath. 
+
+- If all the fields are completed, the 'request table' button links to the extra page 'form-response.html'. This page contains the same image as the bookings page and features a thank you message along with a link to the home page.
 
 ![](documentation/restaurant.png)
 ![](documentation/form.png)
 ![](documentation/form-response-feature.png)
+### Media Queries ###
 
-The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes. See testing section for screenshots.
+The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes and make it easier to follow for the user.See testing section for screenshots.
 
 ## Future Features
 
@@ -129,7 +146,7 @@ I added max-width: 1124px to the style of the about section and it solved the is
 
 ![](documentation/about-too-wide-after.png)
 
-The menu page looked good at all browser sizes, but some of the menu items were too squashed and some lines had only one word.
+The menu page looked good at all browser sizes, but at smaller screen widths some of the menu items were too squashed and some lines had only one word.
 
 ![](documentation/menu-item-before.png)
 
@@ -152,21 +169,20 @@ The same issue occured for the bookings image, and again I used a media query to
 
 ![](documentation/bookings-image-after.png)
 
-The about section also had a similar problem when resizing the browser window, but this was also affected by the text. 
+The about section also had a similar problem when resizing the browser window, but this was also affected by the text positioning. 
+
 ![](documentation/about-image-before.png)
 
 To solve this, I introduced a media query that placed the image below the text at 1170px wide and below. At this point, the text font size and the height of the section change. The result is much more visually pleasing and the layout flows alot better.
 
 ![](documentation/about-image-after.png)
 
-
- 
 ### Form Functionality ###
-When testing the functionality of the form, I realised the form could be inputted without entering any information. This could be confusing to the user, as a message confirming the request has been recieved appears upon completing the form. I added a reuquired attribute to each input, as I decided each input was necessary information about the user/customer. After implementing this change, the user was unable to submit the form with any blank inputs and the below message appears under the blank input.
+When testing the functionality of the form, I realised the form could be inputted without entering any information. This could be confusing to the user, as a message confirming the request has been recieved appears upon completing the form. I added a required attribute to each input, as I decided each input was necessary information about the user/customer. After implementing this change, the user was unable to submit the form with any blank inputs and the below message appears under the blank input.
 
 ![](documentation/form-after.png)
 
- Each input is restricted to its own form of data as expected, for example number inputs only allow numbers and text inputs only allow text.
+ Each input is restricted to its own form of data as expected, for example number inputs only allow numbers and text inputs only allow text. The contact-no. input allows all characters as phone numbers may contain a "+" symbol.
 
 ### Links ###
 To make the experience more complete for the user, I decided to add a home link on the form response page, which takes the user back to the home page. Although the menu page didn't have any structural issues with testing, I noticed it could be made more convenient for the user by adding a back to top link at the bottom of the menu, as the navigation bar isn't visible after scrolling to the bottom of the menu.
@@ -176,22 +192,27 @@ The external links in the footer all open on a new browser window.
 ## Validation Testing
 
 ### CSS Validation
-The file style.css have been validated via the official [CSS validator](https://jigsaw.w3.org/css-validator/) and has passed.
+- The file style.css has been validated via the official [CSS validator](https://jigsaw.w3.org/css-validator/) and has passed.
+
 ![](documentation/css-pass.png)
 
 ### HTML Validation
-All four html files have been validated via the official [HTML Validator](https://validator.w3.org/) and have passed.
+- All four html files have been validated via the official [HTML Validator](https://validator.w3.org/) and have passed.
 
 - Home.html
+
 ![](documentation/home-pass.png)
 
 - Menu.html
+
 ![](documentation/menu-pass.png)
 
 - Bookings.html
+
 ![](documentation/bookings-pass.png)
 
 - Form-Response.html
+
 ![](documentation/form-response-pass.png)
 
 # Technologies and Languages Used
@@ -206,6 +227,7 @@ All four html files have been validated via the official [HTML Validator](https:
 - github
 - google fonts
 - Coolors.co
+- amiresponsive
 
 # Deployment
 
