@@ -1,6 +1,6 @@
 # VeGastronomy 
 
-VeGastronomy is a fictional, fully plant based, fine dining restaurant based in Edinburgh, Scotland. The cuisine is based on classical dishes, reinvented with a vegan twist. The restaurant aims to fill the gap in the vegan niche of the Edinburgh catering industry, providing a truly remarkable dining experience while maintaining the restaurants ethics and philosophy of being plant based. 
+VeGastronomy is a fictional, fully plant based, fine dining restaurant based in Edinburgh, Scotland. The cuisine is based on classical dishes, reinvented with a vegan twist. The restaurant aims to fill the gap in the vegan niche of the Edinburgh catering industry, providing a truly remarkable dining experience while maintaining the restaurant's ethics and philosophy of being plant based. 
 
 The title of the restuarant is a combination of Vegan and the word "Gastronomy" which is defined as "the art and knowledge involved in preparing and eating good food". 
 
@@ -8,8 +8,7 @@ This site is designed to attract customers, provide an overview of the restauran
 
 - Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
 
-## Live Site
-🚨**Required** 
+## Live Site 
 
 - Include a link to deployed project (typically a GitHub Page on  github.io)
 
@@ -22,29 +21,23 @@ https://github.com/AlexSmall96/VeGastronomy
 Alex Small
 
 ## Table of Contents
-🚀 **merit & beyond**
 
 Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/)
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 # UX
-🚀 **merit & beyond** 
 ## Target Audience
-🚀 **merit & beyond**
 
 Although the idea behind this restaurant was to fill a gap in Edinburgh's vegan catering industry, and provide vegans with the oppurtunity to experience fine dining cuisine, the resturant is targeted towards everyone. It aims to showcase that you can still eat delicious food and be vegan. 
 
 
 ## Project Goals
-🚀 **merit & beyond**
 
 This site is intended to give the public a concise yet alluring overview of the restaurant, to attract new customers. The site is intendted to be intuitive and easy to follow, with lots of well positioned naviation links. The home page is designed to catch the users attention with the two images, and provide a succinct description of the restaurant. The menu page aims to provide a sample of what the dining experience is like at the restaurant, while the bookings page is designed to allow customers to easily request a table at the restaurant. The footer aims to allow users to easily get in contact with the restaurant, or find out more information on social media.
 
 ## User Stories
-🚀 **merit & beyond**
 ### Site User
-🚀 **merit & beyond**
 As a site user I want to:
  
 - Understand what the business is
@@ -55,7 +48,6 @@ As a site user I want to:
 - View the restaurants social media links for more information or to contact the restaurant
 
 ### Website Owner
-🚀 **merit & beyond**
 As a site owner I want to:
  
 - Present the restaurant in a way that attracts most customers
@@ -63,17 +55,14 @@ As a site owner I want to:
 - Provide an overview of the food the restaurant offers
 
 ## Design Choices
-🚀 **merit & beyond**
 The look of the site aims to be similar in style to other traditional fine dining restaurants. This drove me to use a clean background, with professional looking text. Some of the choice of style has a more modern feel to it, such as the footer icons, or the choice of font/letter spacing. This reflects the fact that vegan dining is a relatively modern trend.
 
 ### Colors
-🚀 **merit & beyond**
 The white background of the main body aims to provide a stylish classical, look. This also ties into the aim of giving it a traditional fine dining feel. The grey in the margins was chosen so it would contrast with the main white section. The blue in the footer was used to give it a modern twist.
  
 ![](documentation/colour-pallete.png)
 
 ### Typography
-🚀 **merit & beyond**
 The font used on the site is [Oxygen](https://fonts.google.com/specimen/Oxygen?query=oxygen) from google fonts. I thought this font looked professional yet relaxed.
  
 The main heading is the largest font size, to capture the users attention when they first enter the site. The headers of each section are slightly smaller in font size and with a letter spacing. Again, I felt like this added to the relaxed yet professional feel. The headers of subsections, for example in the about section and the links to other pages, are smaller than the header sections and don't have letter spacing, but are still in bold. This helps the user to understand what pieces of text go together.
@@ -84,11 +73,9 @@ The main heading is the largest font size, to capture the users attention when t
 
 
 ### Imagery
-🚀 **merit & beyond**
 The images on the home page were chosen as they appear to be plant based dishes, and are beautifully presented, providing a good first impression of the restaurant's food. The three images on the menu page are designed to give a feel of the range of dishes the restaurant offers, with a main course dish, a dessert dish and raw ingredients being presented. The bookings page features an image of the restaurant. This was chosen as a user who visits the booking page is likely already convinced that they like the food, and the image of the restaurant allows them to imagine further what the experience of dining there would be like, enticing them to fill out the booking form.
 
 ## Site Structure and Features
-🚀 **merit & beyond**
 The site is broken down into three main pages : Home, Menu and Bookings. There is an extra page that is accessed once the bookings form is filled in. Each page has :
  
 - A header conisiting of the name of the restaurant and the navigation menu.
@@ -117,7 +104,6 @@ The bookings page features a picture of the restaurant, with a form to request a
 The site contains media queries to resize hero, about and bookings images at a certain screen width. This helps to improve the flow of the website at smaller screen sizes. See testing section for screenshots.
 
 ## Future Features
-🚀 **merit & beyond**
 
 An additional feature that could be added to the site is the inclusion of more menus. This might look like the menu page having links to a tasting menu, a la carte menu, or drinks menu that open as a pdf on a seperate page.
 
@@ -144,6 +130,7 @@ I added max-width: 1124px to the style of the about section and it solved the is
 ![](documentation/about-too-wide-after.png)
 
 The menu page looked good at all browser sizes, but some of the menu items were too squashed and some lines had only one word.
+
 ![](documentation/menu-item-before.png)
 
  I added a minimum width to the menu section to allow more space for the items at smaller browser sizes.
@@ -160,7 +147,9 @@ To solve this issue, I introduced a media query, where at 1170px wide and below,
 ![](documentation/hero-image-after.png)
 
 The same issue occured for the bookings image, and again I used a media query to implement a similar style change at 800px. 
+
 ![](documentation/bookings-image-before.png)
+
 ![](documentation/bookings-image-after.png)
 
 The about section also had a similar problem when resizing the browser window, but this was also affected by the text. 
@@ -206,13 +195,11 @@ All four html files have been validated via the official [HTML Validator](https:
 ![](documentation/form-response-pass.png)
 
 # Technologies and Languages Used
-🚀 **merit & beyond**
 
 - Lanuages used were HTML and CSS
 - Gitpod was used to write the code and preview the site
 
 ## Frameworks, Libraries & Programs Used
-🚀 **merit & beyond**
 
 - fontawesome
 - gitpod
@@ -220,10 +207,20 @@ All four html files have been validated via the official [HTML Validator](https:
 - google fonts
 - Coolors.co
 
-# Credits
-🚨**Required** 
+# Deployment
 
-The resources used to create the code for this project were the HTML and CSS Essentials module and the Love Running Walkthrough project.
+# Credits
+## Content
+
+- The restaurants philosophy and menu were all original ideas.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com//)
+
+## Media
+
+- The photos used on the site were taken from [Pexels](https://www.pexels.com///)
+
+## Code
+- The resources used to create the code for this project were the HTML and CSS Essentials module and the Love Running Walkthrough project.
 
 
 
