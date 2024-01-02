@@ -166,7 +166,9 @@ Once I was happy with the overall layout and style of the project, I began testi
 The menu and bookings pages looked good at all sizes but there were issues with the home page.
  
 The first issue I noticed was at Mobile S - 320px, the Menu and Reservations links wouldn't fit on the same line. This looked unprofessional as the boxes weren't lined up.
+
  ![](documentation/links-overflow-before.png)
+ 
   I adjusted the width of the boxes to 40% which created space for them to be on the same line. I also changed 'Reservations' to 'Bookings' so it would fit in a smaller space. With this issue fixed, the home page looked good at this browser size.
 
 ![](documentation/links-overflow-after.png)
