@@ -287,7 +287,7 @@ footer td{
 /*Reservations Page*/
 
 #bookings-image{
-    height: 650px;
+    height: 400px;
     width: 90%;
     margin:auto;
     background: url('../../assets/images/bookings-image.jpeg') no-repeat center center;
